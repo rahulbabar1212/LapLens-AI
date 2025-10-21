@@ -57,7 +57,9 @@ st.markdown("""
     each driver’s strengths, weaknesses, and real-time performance patterns.  
     """)
 
-st.button("🚀 Get Started")
+press = st.button("🚀 Get Started")
+if press :
+    st.switch_page("pages/Dashboard.py")
 
 st.markdown("<hr>", unsafe_allow_html=True)
 st.header("🏎️ Discover the Science of Speed")
